@@ -27,6 +27,7 @@
 
 -(void)addStretchableImage:(UIImage *)image withContentCenter:(CGRect)rect toLayer:(CALayer *)layer{
     layer.contents = (__bridge id)image.CGImage;
+    //指定拉伸的位置
     layer.contentsCenter = rect;
 }
 @end
