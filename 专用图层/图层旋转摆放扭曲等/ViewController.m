@@ -33,7 +33,7 @@
     animationType = [[AnimationType alloc]initWithTitle:@"旋转/缩小/移动" detailTitle:@"旋转/缩小/移动FirstVC第五章"];
     [self.dataSourceList addObject:animationType];
     
-    animationType = [[AnimationType alloc]initWithTitle:@"3D旋转" detailTitle:@"围绕Y轴做45度角的旋转FirstVC第五章"];
+    animationType = [[AnimationType alloc]initWithTitle:@"3D旋转" detailTitle:@"围绕Y轴做45度角的旋转       FirstVC第五章"];
     [self.dataSourceList addObject:animationType];
     
     [self.tableview reloadData];
