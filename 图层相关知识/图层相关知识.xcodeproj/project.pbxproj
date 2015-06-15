@@ -32,6 +32,21 @@
 		4DA910771B2DA92400CED333 /* Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DA910751B2DA92400CED333 /* Button@2x.png */; };
 		4DA9107B1B2DB00000CED333 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA910791B2DB00000CED333 /* FourthViewController.m */; };
 		4DA9107C1B2DB00000CED333 /* FourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA9107A1B2DB00000CED333 /* FourthViewController.xib */; };
+		7B0D92011B2EAEDC00E6B8C7 /* SeventhViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0D91FF1B2EAEDC00E6B8C7 /* SeventhViewController.m */; };
+		7B0D92021B2EAEDC00E6B8C7 /* SeventhViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B0D92001B2EAEDC00E6B8C7 /* SeventhViewController.xib */; };
+		7B0D92051B2EAFFF00E6B8C7 /* Igloo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0D92031B2EAFFF00E6B8C7 /* Igloo.png */; };
+		7B0D92061B2EAFFF00E6B8C7 /* Igloo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0D92041B2EAFFF00E6B8C7 /* Igloo@2x.png */; };
+		7B21510E1B2E7B7100996DC1 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B21510C1B2E7B7100996DC1 /* FifthViewController.m */; };
+		7B21510F1B2E7B7100996DC1 /* FifthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B21510D1B2E7B7100996DC1 /* FifthViewController.xib */; };
+		7B2151111B2EB9F200996DC1 /* Digits.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B2151101B2EB9F200996DC1 /* Digits.png */; };
+		7B2151151B2EBA8000996DC1 /* EightthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2151131B2EBA8000996DC1 /* EightthViewController.m */; };
+		7B2151161B2EBA8000996DC1 /* EightthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B2151141B2EBA8000996DC1 /* EightthViewController.xib */; };
+		7B21511A1B2EBE1A00996DC1 /* NinethViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2151181B2EBE1A00996DC1 /* NinethViewController.m */; };
+		7B21511D1B2EBE9700996DC1 /* NinethViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B21511C1B2EBE9700996DC1 /* NinethViewController.xib */; };
+		7BACE2411B2E9C7F00561EAF /* SixthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BACE23F1B2E9C7F00561EAF /* SixthViewController.m */; };
+		7BACE2421B2E9C7F00561EAF /* SixthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BACE2401B2E9C7F00561EAF /* SixthViewController.xib */; };
+		7BFE03021B2E9C2A008650FB /* Cone.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BFE03001B2E9C2A008650FB /* Cone.png */; };
+		7BFE03031B2E9C2A008650FB /* Cone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BFE03011B2E9C2A008650FB /* Cone@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +96,26 @@
 		4DA910781B2DB00000CED333 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
 		4DA910791B2DB00000CED333 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
 		4DA9107A1B2DB00000CED333 /* FourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthViewController.xib; sourceTree = "<group>"; };
+		7B0D91FE1B2EAEDC00E6B8C7 /* SeventhViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeventhViewController.h; sourceTree = "<group>"; };
+		7B0D91FF1B2EAEDC00E6B8C7 /* SeventhViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeventhViewController.m; sourceTree = "<group>"; };
+		7B0D92001B2EAEDC00E6B8C7 /* SeventhViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeventhViewController.xib; sourceTree = "<group>"; };
+		7B0D92031B2EAFFF00E6B8C7 /* Igloo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Igloo.png; sourceTree = "<group>"; };
+		7B0D92041B2EAFFF00E6B8C7 /* Igloo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Igloo@2x.png"; sourceTree = "<group>"; };
+		7B21510B1B2E7B7100996DC1 /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		7B21510C1B2E7B7100996DC1 /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
+		7B21510D1B2E7B7100996DC1 /* FifthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FifthViewController.xib; sourceTree = "<group>"; };
+		7B2151101B2EB9F200996DC1 /* Digits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Digits.png; sourceTree = "<group>"; };
+		7B2151121B2EBA8000996DC1 /* EightthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EightthViewController.h; sourceTree = "<group>"; };
+		7B2151131B2EBA8000996DC1 /* EightthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EightthViewController.m; sourceTree = "<group>"; };
+		7B2151141B2EBA8000996DC1 /* EightthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EightthViewController.xib; sourceTree = "<group>"; };
+		7B2151171B2EBE1A00996DC1 /* NinethViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NinethViewController.h; sourceTree = "<group>"; };
+		7B2151181B2EBE1A00996DC1 /* NinethViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NinethViewController.m; sourceTree = "<group>"; };
+		7B21511C1B2EBE9700996DC1 /* NinethViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NinethViewController.xib; sourceTree = "<group>"; };
+		7BACE23E1B2E9C7F00561EAF /* SixthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixthViewController.h; sourceTree = "<group>"; };
+		7BACE23F1B2E9C7F00561EAF /* SixthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixthViewController.m; sourceTree = "<group>"; };
+		7BACE2401B2E9C7F00561EAF /* SixthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SixthViewController.xib; sourceTree = "<group>"; };
+		7BFE03001B2E9C2A008650FB /* Cone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cone.png; path = ../Cone.png; sourceTree = "<group>"; };
+		7BFE03011B2E9C2A008650FB /* Cone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cone@2x.png"; path = "../Cone@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +159,15 @@
 		4D6133B41B2D3B990073C471 /* 图层相关知识 */ = {
 			isa = PBXGroup;
 			children = (
+				7B2151121B2EBA8000996DC1 /* EightthViewController.h */,
+				7B2151131B2EBA8000996DC1 /* EightthViewController.m */,
+				7B2151141B2EBA8000996DC1 /* EightthViewController.xib */,
+				7B0D91FE1B2EAEDC00E6B8C7 /* SeventhViewController.h */,
+				7B0D91FF1B2EAEDC00E6B8C7 /* SeventhViewController.m */,
+				7B0D92001B2EAEDC00E6B8C7 /* SeventhViewController.xib */,
+				7BACE23E1B2E9C7F00561EAF /* SixthViewController.h */,
+				7BACE23F1B2E9C7F00561EAF /* SixthViewController.m */,
+				7BACE2401B2E9C7F00561EAF /* SixthViewController.xib */,
 				4D6133E11B2D449F0073C471 /* FirstViewController.h */,
 				4D6133E21B2D449F0073C471 /* FirstViewController.m */,
 				4D6133B91B2D3B990073C471 /* AppDelegate.h */,
@@ -145,6 +189,12 @@
 				4DA910781B2DB00000CED333 /* FourthViewController.h */,
 				4DA910791B2DB00000CED333 /* FourthViewController.m */,
 				4DA9107A1B2DB00000CED333 /* FourthViewController.xib */,
+				7B21510B1B2E7B7100996DC1 /* FifthViewController.h */,
+				7B21510C1B2E7B7100996DC1 /* FifthViewController.m */,
+				7B21510D1B2E7B7100996DC1 /* FifthViewController.xib */,
+				7B2151171B2EBE1A00996DC1 /* NinethViewController.h */,
+				7B2151181B2EBE1A00996DC1 /* NinethViewController.m */,
+				7B21511C1B2EBE9700996DC1 /* NinethViewController.xib */,
 			);
 			path = "图层相关知识";
 			sourceTree = "<group>";
@@ -179,6 +229,11 @@
 		4DA9105B1B2D81B200CED333 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				7B2151101B2EB9F200996DC1 /* Digits.png */,
+				7B0D92031B2EAFFF00E6B8C7 /* Igloo.png */,
+				7B0D92041B2EAFFF00E6B8C7 /* Igloo@2x.png */,
+				7BFE03001B2E9C2A008650FB /* Cone.png */,
+				7BFE03011B2E9C2A008650FB /* Cone@2x.png */,
 				4DA910741B2DA92400CED333 /* Button.png */,
 				4DA910751B2DA92400CED333 /* Button@2x.png */,
 				4DA9106B1B2DA22E00CED333 /* Sprites.png */,
@@ -273,19 +328,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DA910641B2D81B200CED333 /* Snowman.png in Resources */,
+				7B0D92061B2EAFFF00E6B8C7 /* Igloo@2x.png in Resources */,
 				4DA910761B2DA92400CED333 /* Button.png in Resources */,
 				4DA910631B2D81B200CED333 /* Default@2x.png in Resources */,
+				7BFE03031B2E9C2A008650FB /* Cone@2x.png in Resources */,
 				4DA910731B2DA61100CED333 /* ThirdViewController.xib in Resources */,
+				7B2151161B2EBA8000996DC1 /* EightthViewController.xib in Resources */,
 				4D6133C11B2D3B990073C471 /* Main.storyboard in Resources */,
+				7B0D92021B2EAEDC00E6B8C7 /* SeventhViewController.xib in Resources */,
 				4DA9106E1B2DA22E00CED333 /* Sprites@2x.png in Resources */,
+				7BACE2421B2E9C7F00561EAF /* SixthViewController.xib in Resources */,
+				7B0D92051B2EAFFF00E6B8C7 /* Igloo.png in Resources */,
+				7B21511D1B2EBE9700996DC1 /* NinethViewController.xib in Resources */,
 				4DA910771B2DA92400CED333 /* Button@2x.png in Resources */,
 				4DA9107C1B2DB00000CED333 /* FourthViewController.xib in Resources */,
+				7B21510F1B2E7B7100996DC1 /* FifthViewController.xib in Resources */,
 				4DA910611B2D81B200CED333 /* Default-568h@2x.png in Resources */,
+				7BFE03021B2E9C2A008650FB /* Cone.png in Resources */,
 				4D6133C61B2D3B990073C471 /* LaunchScreen.xib in Resources */,
 				4DA9106A1B2DA02500CED333 /* SecondViewController.xib in Resources */,
 				4DA9106D1B2DA22E00CED333 /* Sprites.png in Resources */,
 				4D6133C31B2D3B990073C471 /* Images.xcassets in Resources */,
 				4DA910651B2D81B200CED333 /* Snowman@2x.png in Resources */,
+				7B2151111B2EB9F200996DC1 /* Digits.png in Resources */,
 				4DA910621B2D81B200CED333 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,14 +369,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B21510E1B2E7B7100996DC1 /* FifthViewController.m in Sources */,
 				4DA9107B1B2DB00000CED333 /* FourthViewController.m in Sources */,
 				4DA910691B2DA02500CED333 /* SecondViewController.m in Sources */,
+				7B21511A1B2EBE1A00996DC1 /* NinethViewController.m in Sources */,
 				4D6133DD1B2D3EAA0073C471 /* AnimationType.m in Sources */,
 				4D6133BE1B2D3B990073C471 /* ViewController.m in Sources */,
 				4D6133E31B2D449F0073C471 /* FirstViewController.m in Sources */,
+				7B0D92011B2EAEDC00E6B8C7 /* SeventhViewController.m in Sources */,
 				4D6133BB1B2D3B990073C471 /* AppDelegate.m in Sources */,
 				4D6133B81B2D3B990073C471 /* main.m in Sources */,
 				4DA910721B2DA61100CED333 /* ThirdViewController.m in Sources */,
+				7B2151151B2EBA8000996DC1 /* EightthViewController.m in Sources */,
+				7BACE2411B2E9C7F00561EAF /* SixthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
