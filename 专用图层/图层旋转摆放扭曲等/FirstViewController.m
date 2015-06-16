@@ -9,7 +9,8 @@
 #import "FirstViewController.h"
 
 @interface FirstViewController ()
-@property (weak, nonatomic) IBOutlet UIImageView *layerView;
+
+@property (weak, nonatomic) IBOutlet UIView *containerView;
 
 @end
 
@@ -17,41 +18,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor lightGrayColor];
-    if (self.type == 0) {
-        [self rotate45];
-    }else if(self.type == 1){
-        [self commonAnimation];
-    }else if (self.type == 2){
-        [self the3Dstransform];
-    }
-
+   
+    UIBezierPath *path = [[UIBezierPath alloc]init];
+    //移动到一个点
+    [path moveToPoint:CGPointMake(175, 100)];
+    //移动到一个中心点，画圆。。。。
+    [path addArcWithCenter:CGPointMake(150, 100) radius:25 startAngle:0 endAngle:2*M_PI clockwise:YES];
+    [path moveToPoint:CGPointMake(150, 125)];
+    //已上面那个点为起点，已下面那个点为终点，画一条线。
+    [path addLineToPoint:CGPointMake(150, 175)];
+    //
 }
-
--(void)the3Dstransform{
-    CATransform3D transform = CATransform3DMakeRotation(M_PI_4, 0, 1, 0);
-    self.layerView.layer.transform = transform;
-}
-
-
-
-//旋转45度
--(void)rotate45{
-    CGAffineTransform transform = CGAffineTransformMakeRotation(M_PI_4);
-    self.layerView.layer.affineTransform = transform;
-}
-
-
-//缩小50%，旋转30，右移200个像素
--(void)commonAnimation{
-    CGAffineTransform transform = CGAffineTransformIdentity;
-    //缩小50%
-    transform = CGAffineTransformScale(transform, 0.5, 0.5);
-    // 旋转30度
-    transform = CGAffineTransformRotate(transform, M_PI/180.0 * 30.0);
-    //右移200像素
-    transform = CGAffineTransformTranslate(transform, 200, 0);
-    self.layerView.layer.affineTransform = transform;
-}
-
 @end
