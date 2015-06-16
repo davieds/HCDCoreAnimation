@@ -38,6 +38,10 @@
     CGContextMoveToPoint(currentContext, 50.0f, 10.0f);
     //绘制一条线，以参数为重点
     CGContextAddLineToPoint(currentContext, 100.0f, 200.0f);
+    //绘制第二条线
+    CGContextAddLineToPoint(currentContext, 300.0f, 100.0f);
+    
+    
     //通过上下文绘制
     CGContextStrokePath(currentContext);
     
