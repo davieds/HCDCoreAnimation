@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>02122934-30CB-463A-A8E3-371DD2107D46</string>
+	<string>E84EC08D-F126-4D7E-889C-B37CAC9C24C7</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Graphics</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>BC5394D8F1190DA0E0710C1F6472CC1025079B40</key>
 		<string>https://github.com/huang303513/HCDCoreAnimation.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Graphics-and-Animation-on-iOS/把字符串绘制到屏幕上、得到颜色的各组成部分/Graphics.xcodeproj</string>
+	<string>Graphics-and-Animation-on-iOS/视图动画/视图动画.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>BC5394D8F1190DA0E0710C1F6472CC1025079B40</key>
