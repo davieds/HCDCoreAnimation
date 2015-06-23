@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D643ABB1B399682002D2248 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D643AB91B399682002D2248 /* SecondViewController.m */; };
+		4D643ABE1B3996AE002D2248 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D643ABD1B3996AE002D2248 /* SecondViewController.xib */; };
 		7B18E1211B2ED3A8003A961E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B18E1201B2ED3A8003A961E /* main.m */; };
 		7B18E1241B2ED3A8003A961E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B18E1231B2ED3A8003A961E /* AppDelegate.m */; };
 		7B18E1271B2ED3A8003A961E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B18E1261B2ED3A8003A961E /* ViewController.m */; };
@@ -32,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D643AB81B399682002D2248 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		4D643AB91B399682002D2248 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		4D643ABD1B3996AE002D2248 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 		7B18E11B1B2ED3A8003A961E /* 图层旋转摆放扭曲等.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "图层旋转摆放扭曲等.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B18E11F1B2ED3A8003A961E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B18E1201B2ED3A8003A961E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -106,6 +111,9 @@
 				7B18E12B1B2ED3A8003A961E /* Images.xcassets */,
 				7B18E12D1B2ED3A8003A961E /* LaunchScreen.xib */,
 				7B18E11E1B2ED3A8003A961E /* Supporting Files */,
+				4D643AB81B399682002D2248 /* SecondViewController.h */,
+				4D643AB91B399682002D2248 /* SecondViewController.m */,
+				4D643ABD1B3996AE002D2248 /* SecondViewController.xib */,
 			);
 			path = "图层旋转摆放扭曲等";
 			sourceTree = "<group>";
@@ -219,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B18E14F1B2ED6F6003A961E /* Snowman@2x.png in Resources */,
+				4D643ABE1B3996AE002D2248 /* SecondViewController.xib in Resources */,
 				7B18E12A1B2ED3A8003A961E /* Main.storyboard in Resources */,
 				7B18E12F1B2ED3A8003A961E /* LaunchScreen.xib in Resources */,
 				7B18E14E1B2ED6F6003A961E /* Snowman.png in Resources */,
@@ -241,6 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D643ABB1B399682002D2248 /* SecondViewController.m in Sources */,
 				7B18E1461B2ED57A003A961E /* AnimationType.m in Sources */,
 				7B18E1271B2ED3A8003A961E /* ViewController.m in Sources */,
 				7B18E14A1B2ED5EC003A961E /* FirstViewController.m in Sources */,
@@ -442,6 +452,7 @@
 				7B18E1401B2ED3A8003A961E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B18E1411B2ED3A8003A961E /* Build configuration list for PBXNativeTarget "图层旋转摆放扭曲等Tests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +461,7 @@
 				7B18E1431B2ED3A8003A961E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

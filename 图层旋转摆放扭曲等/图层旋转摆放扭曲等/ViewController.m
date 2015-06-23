@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "AnimationType.h"
 #import "FirstViewController.h"
+#import "SecondViewController.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property(nonatomic,strong)UITableView *tableview;
@@ -35,6 +36,10 @@
     
     animationType = [[AnimationType alloc]initWithTitle:@"3D旋转" detailTitle:@"围绕Y轴做45度角的旋转FirstVC第五章"];
     [self.dataSourceList addObject:animationType];
+    
+    animationType = [[AnimationType alloc]initWithTitle:@"子视图有相同的灭点" detailTitle:@"子视图有相同的灭点SecondVC第五章"];
+    [self.dataSourceList addObject:animationType];
+
     
     [self.tableview reloadData];
 }
@@ -75,6 +80,9 @@
         FirstViewController *firstVC = [[FirstViewController alloc]init];
         firstVC.type = 2;
         [self.navigationController pushViewController:firstVC animated:YES];
+    }else if(indexPath.row == 2){
+        SecondViewController *secondVC = [[SecondViewController alloc]init];
+        [self.navigationController pushViewController:secondVC animated:YES];
     }
 }
 @end
