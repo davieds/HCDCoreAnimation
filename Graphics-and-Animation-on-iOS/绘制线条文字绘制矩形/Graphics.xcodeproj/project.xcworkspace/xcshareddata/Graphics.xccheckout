@@ -14,7 +14,7 @@
 		<string>https://github.com/huang303513/HCDCoreAnimation.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Graphics-and-Animation-on-iOS/把字符串绘制到屏幕上、得到颜色的各组成部分/Graphics.xcodeproj</string>
+	<string>Graphics-and-Animation-on-iOS/绘制线条文字绘制矩形/Graphics.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>BC5394D8F1190DA0E0710C1F6472CC1025079B40</key>
