@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>8C0710B9-F94B-485D-8C8F-5836B16F8FAB</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>图层旋转摆放扭曲等</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>BC5394D8F1190DA0E0710C1F6472CC1025079B40</key>
 		<string>https://github.com/huang303513/HCDCoreAnimation.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>专用图层/图层旋转摆放扭曲等.xcodeproj/project.xcworkspace</string>
+	<string>专用图层/图层旋转摆放扭曲等.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>BC5394D8F1190DA0E0710C1F6472CC1025079B40</key>

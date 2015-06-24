@@ -9,6 +9,13 @@
 #import "ViewController.h"
 #import "AnimationType.h"
 #import "FirstViewController.h"
+#import "SecondViewController.h"
+#import "ThirdViewController.h"
+#import "FourViewController.h"
+#import "FiveViewController.h"
+#import "SixViewController.h"
+#import "SevenViewController.h"
+#import "EightViewController.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property(nonatomic,strong)UITableView *tableview;
@@ -30,11 +37,31 @@
     self.dataSourceList = [NSMutableArray array];
     
     AnimationType *animationType;
-    animationType = [[AnimationType alloc]initWithTitle:@"旋转/缩小/移动" detailTitle:@"旋转/缩小/移动FirstVC第五章"];
+    animationType = [[AnimationType alloc]initWithTitle:@"通过CAShapeLayer画出一个火柴人" detailTitle:@"通过CAShapeLayer画出一个火柴人FirstVC第六章"];
     [self.dataSourceList addObject:animationType];
     
-    animationType = [[AnimationType alloc]initWithTitle:@"3D旋转" detailTitle:@"围绕Y轴做45度角的旋转       FirstVC第五章"];
+    animationType = [[AnimationType alloc]initWithTitle:@"CATextLayer实现多行文字显示" detailTitle:@"CATextLayer实现多行文字显示secondVC第六章"];
     [self.dataSourceList addObject:animationType];
+
+    animationType = [[AnimationType alloc]initWithTitle:@"CATextLayer实现富文本" detailTitle:@"CATextLayer实现富文本thirdVC第六章"];
+    [self.dataSourceList addObject:animationType];
+
+    animationType = [[AnimationType alloc]initWithTitle:@"用CATextLayer实现UILable子类" detailTitle:@"用CATextLayer实现UILable子类fourVC第六章"];
+    [self.dataSourceList addObject:animationType];
+    
+    animationType = [[AnimationType alloc]initWithTitle:@"用CAGradientLayer事先渐变视图" detailTitle:@"用CAGradientLayer事先渐变视图fiveVC第六章"];
+    [self.dataSourceList addObject:animationType];
+    
+    animationType = [[AnimationType alloc]initWithTitle:@"用CAReplicatorLayer视图的倒影" detailTitle:@"用CAReplicatorLayer视图的倒影sixVC第六章"];
+    [self.dataSourceList addObject:animationType];
+
+    animationType = [[AnimationType alloc]initWithTitle:@"用CAScrollLayer实现模拟的scrollView" detailTitle:@"用CAScrollLayer实现模拟的scrollView第sevenVC第六章"];
+    [self.dataSourceList addObject:animationType];
+    
+    
+    animationType = [[AnimationType alloc]initWithTitle:@"用AVPlayerLayer实现播放视频" detailTitle:@"用AVPlayerLayer实现播放视频eightVC第六章"];
+    [self.dataSourceList addObject:animationType];
+
     
     [self.tableview reloadData];
 }
@@ -62,7 +89,7 @@
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 40;
+    return 60;
 }
 
 
@@ -72,9 +99,27 @@
         firstVC.type = 1;
         [self.navigationController pushViewController:firstVC animated:YES];
     }else if(indexPath.row == 1){
-        FirstViewController *firstVC = [[FirstViewController alloc]init];
-        firstVC.type = 2;
-        [self.navigationController pushViewController:firstVC animated:YES];
+        SecondViewController *secondVC = [[SecondViewController alloc]init];
+        [self.navigationController pushViewController:secondVC animated:YES];
+    }else if(indexPath.row == 2){
+        ThirdViewController *thirdVC = [[ThirdViewController alloc]init];
+        [self.navigationController pushViewController:thirdVC animated:YES];
+    }else if(indexPath.row == 3){
+        FourViewController *fourVC = [[FourViewController alloc]init];
+        [self.navigationController pushViewController:fourVC animated:YES];
+    }else if(indexPath.row == 4){
+        FiveViewController *fiveVC = [[FiveViewController alloc]init];
+        [self.navigationController pushViewController:fiveVC animated:YES];
+    }else if(indexPath.row == 5){
+        SixViewController *sixVC = [[SixViewController alloc]init];
+        [self.navigationController pushViewController:sixVC animated:YES];
+    }else if(indexPath.row == 6){
+        SevenViewController *sevenVC = [[SevenViewController alloc]init];
+        [self.navigationController pushViewController:sevenVC animated:YES];
+    }else if(indexPath.row == 7){
+        EightViewController *eightVC = [[EightViewController alloc]init];
+        [self.navigationController pushViewController:eightVC animated:YES];
     }
+
 }
 @end
