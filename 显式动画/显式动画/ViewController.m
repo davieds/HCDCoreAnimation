@@ -10,6 +10,8 @@
 #import "AnimationType.h"
 #import "FirstViewController.h"
 #import "SecondViewController.h"
+#import "ThirdViewController.h"
+#import "FourViewController.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property(nonatomic,strong)UITableView *tableview;
@@ -31,15 +33,17 @@
     self.dataSourceList = [NSMutableArray array];
     
     AnimationType *animationType;
-    animationType = [[AnimationType alloc]initWithTitle:@"通过CATransaction做动画" detailTitle:@"通过CATransaction做动画FirstVC第七章"];
+    animationType = [[AnimationType alloc]initWithTitle:@"通过CATransaction做动画" detailTitle:@"通过CATransaction做动画FirstVC第八章"];
     [self.dataSourceList addObject:animationType];
     
-    animationType = [[AnimationType alloc]initWithTitle:@"为CALayer添加自定义行为实现从左侧切入效果" detailTitle:@"为CALayer添加自定义行为secondVC第七章"];
+    animationType = [[AnimationType alloc]initWithTitle:@"通过CABasicAnimation实现时钟效果" detailTitle:@"通过CABasicAnimation实现时钟效果secondVC第八章"];
     [self.dataSourceList addObject:animationType];
     
-    animationType = [[AnimationType alloc]initWithTitle:@"通过hitTest来测试是否点中呈现图层" detailTitle:@"通过hitTest来测试是否点中呈现图层thirdVC第七章"];
+    animationType = [[AnimationType alloc]initWithTitle:@"通过CABaseAnimation实现图层的旋转" detailTitle:@"通过CABaseAnimation实现图层的旋转thirdVC第八章"];
     [self.dataSourceList addObject:animationType];
     
+    animationType = [[AnimationType alloc]initWithTitle:@"通过CAAnimationGroup实现动画组" detailTitle:@"通过CAAnimationGroup实现动画组fourVC第八章"];
+    [self.dataSourceList addObject:animationType];
     
     
     [self.tableview reloadData];
@@ -79,11 +83,13 @@
     }else if(indexPath.row == 1){
         SecondViewController *secondVC = [[SecondViewController alloc]init];
         [self.navigationController pushViewController:secondVC animated:YES];
+    }else if(indexPath.row == 2){
+        ThirdViewController *thirdVC = [[ThirdViewController alloc]init];
+        [self.navigationController pushViewController:thirdVC animated:YES];
+    }else if(indexPath.row == 3){
+        FourViewController *fourVC = [[FourViewController alloc]init];
+        [self.navigationController pushViewController:fourVC animated:YES];
     }
-//    else if(indexPath.row == 2){
-//        ThirdViewController *thirdVC = [[ThirdViewController alloc]init];
-//        [self.navigationController pushViewController:thirdVC animated:YES];
-//    }
     
 }
 

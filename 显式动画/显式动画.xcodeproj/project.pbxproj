@@ -12,7 +12,6 @@
 		7B7D04251B3BA422001B9F8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D04241B3BA422001B9F8C /* ViewController.m */; };
 		7B7D04281B3BA422001B9F8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B7D04261B3BA422001B9F8C /* Main.storyboard */; };
 		7B7D042A1B3BA422001B9F8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B7D04291B3BA422001B9F8C /* Assets.xcassets */; };
-		7B7D042D1B3BA422001B9F8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B7D042B1B3BA422001B9F8C /* LaunchScreen.storyboard */; };
 		7B7D04371B3BA43D001B9F8C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D04351B3BA43D001B9F8C /* FirstViewController.m */; };
 		7B7D043E1B3BA537001B9F8C /* AnimationType.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D043A1B3BA537001B9F8C /* AnimationType.m */; };
 		7B7D043F1B3BA537001B9F8C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7D043B1B3BA537001B9F8C /* Default-568h@2x.png */; };
@@ -29,6 +28,12 @@
 		7B7D04581B3BD275001B9F8C /* MinuteHand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7D04501B3BD275001B9F8C /* MinuteHand@2x.png */; };
 		7B7D04591B3BD275001B9F8C /* SecondHand.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7D04511B3BD275001B9F8C /* SecondHand.png */; };
 		7B7D045A1B3BD275001B9F8C /* SecondHand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7D04521B3BD275001B9F8C /* SecondHand@2x.png */; };
+		7BB821AC1B3BF46D003ABEE7 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB821AA1B3BF46D003ABEE7 /* ThirdViewController.m */; };
+		7BB821AF1B3BF64D003ABEE7 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BB821AE1B3BF64D003ABEE7 /* ThirdViewController.xib */; };
+		7BB821B21B3BF6B6003ABEE7 /* Ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB821B01B3BF6B6003ABEE7 /* Ship.png */; };
+		7BB821B31B3BF6B6003ABEE7 /* Ship@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB821B11B3BF6B6003ABEE7 /* Ship@2x.png */; };
+		7BB821BC1B3BF909003ABEE7 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB821BA1B3BF909003ABEE7 /* FourViewController.m */; };
+		7BB821BF1B3BF9BB003ABEE7 /* FourViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BB821BE1B3BF9BB003ABEE7 /* FourViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +45,6 @@
 		7B7D04241B3BA422001B9F8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7B7D04271B3BA422001B9F8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B7D04291B3BA422001B9F8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7B7D042C1B3BA422001B9F8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B7D042E1B3BA422001B9F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B7D04341B3BA43D001B9F8C /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		7B7D04351B3BA43D001B9F8C /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
@@ -61,6 +65,14 @@
 		7B7D04501B3BD275001B9F8C /* MinuteHand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MinuteHand@2x.png"; sourceTree = "<group>"; };
 		7B7D04511B3BD275001B9F8C /* SecondHand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SecondHand.png; sourceTree = "<group>"; };
 		7B7D04521B3BD275001B9F8C /* SecondHand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SecondHand@2x.png"; sourceTree = "<group>"; };
+		7BB821A91B3BF46D003ABEE7 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		7BB821AA1B3BF46D003ABEE7 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		7BB821AE1B3BF64D003ABEE7 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		7BB821B01B3BF6B6003ABEE7 /* Ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ship.png; sourceTree = "<group>"; };
+		7BB821B11B3BF6B6003ABEE7 /* Ship@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ship@2x.png"; sourceTree = "<group>"; };
+		7BB821B91B3BF909003ABEE7 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		7BB821BA1B3BF909003ABEE7 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		7BB821BE1B3BF9BB003ABEE7 /* FourViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +105,12 @@
 		7B7D041C1B3BA422001B9F8C /* 显式动画 */ = {
 			isa = PBXGroup;
 			children = (
+				7BB821BE1B3BF9BB003ABEE7 /* FourViewController.xib */,
+				7BB821B91B3BF909003ABEE7 /* FourViewController.h */,
+				7BB821BA1B3BF909003ABEE7 /* FourViewController.m */,
+				7BB821AE1B3BF64D003ABEE7 /* ThirdViewController.xib */,
+				7BB821A91B3BF46D003ABEE7 /* ThirdViewController.h */,
+				7BB821AA1B3BF46D003ABEE7 /* ThirdViewController.m */,
 				7B7D04391B3BA537001B9F8C /* AnimationType.h */,
 				7B7D043A1B3BA537001B9F8C /* AnimationType.m */,
 				7B7D04201B3BA422001B9F8C /* AppDelegate.h */,
@@ -101,7 +119,6 @@
 				7B7D04241B3BA422001B9F8C /* ViewController.m */,
 				7B7D04261B3BA422001B9F8C /* Main.storyboard */,
 				7B7D04291B3BA422001B9F8C /* Assets.xcassets */,
-				7B7D042B1B3BA422001B9F8C /* LaunchScreen.storyboard */,
 				7B7D042E1B3BA422001B9F8C /* Info.plist */,
 				7B7D041D1B3BA422001B9F8C /* Supporting Files */,
 				7B7D04341B3BA43D001B9F8C /* FirstViewController.h */,
@@ -117,6 +134,8 @@
 		7B7D041D1B3BA422001B9F8C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7BB821B01B3BF6B6003ABEE7 /* Ship.png */,
+				7BB821B11B3BF6B6003ABEE7 /* Ship@2x.png */,
 				7B7D044B1B3BD275001B9F8C /* ClockFace.png */,
 				7B7D044C1B3BD275001B9F8C /* ClockFace@2x.png */,
 				7B7D044D1B3BD275001B9F8C /* HourHand.png */,
@@ -190,9 +209,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B7D042D1B3BA422001B9F8C /* LaunchScreen.storyboard in Resources */,
 				7B7D04401B3BA537001B9F8C /* Default.png in Resources */,
 				7B7D04541B3BD275001B9F8C /* ClockFace@2x.png in Resources */,
+				7BB821AF1B3BF64D003ABEE7 /* ThirdViewController.xib in Resources */,
 				7B7D042A1B3BA422001B9F8C /* Assets.xcassets in Resources */,
 				7B7D04571B3BD275001B9F8C /* MinuteHand.png in Resources */,
 				7B7D045A1B3BD275001B9F8C /* SecondHand@2x.png in Resources */,
@@ -204,8 +223,11 @@
 				7B7D043F1B3BA537001B9F8C /* Default-568h@2x.png in Resources */,
 				7B7D04531B3BD275001B9F8C /* ClockFace.png in Resources */,
 				7B7D04551B3BD275001B9F8C /* HourHand.png in Resources */,
+				7BB821B31B3BF6B6003ABEE7 /* Ship@2x.png in Resources */,
+				7BB821B21B3BF6B6003ABEE7 /* Ship.png in Resources */,
 				7B7D04431B3BAEAC001B9F8C /* FirstViewController.xib in Resources */,
 				7B7D04411B3BA537001B9F8C /* Default@2x.png in Resources */,
+				7BB821BF1B3BF9BB003ABEE7 /* FourViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,10 +240,12 @@
 			files = (
 				7B7D04471B3BD1EE001B9F8C /* SecondViewController.m in Sources */,
 				7B7D04251B3BA422001B9F8C /* ViewController.m in Sources */,
+				7BB821BC1B3BF909003ABEE7 /* FourViewController.m in Sources */,
 				7B7D043E1B3BA537001B9F8C /* AnimationType.m in Sources */,
 				7B7D04221B3BA422001B9F8C /* AppDelegate.m in Sources */,
 				7B7D041F1B3BA422001B9F8C /* main.m in Sources */,
 				7B7D04371B3BA43D001B9F8C /* FirstViewController.m in Sources */,
+				7BB821AC1B3BF46D003ABEE7 /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,14 +258,6 @@
 				7B7D04271B3BA422001B9F8C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7B7D042B1B3BA422001B9F8C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7B7D042C1B3BA422001B9F8C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -370,6 +386,7 @@
 				7B7D04331B3BA422001B9F8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
