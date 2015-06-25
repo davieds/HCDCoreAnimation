@@ -1,8 +1,8 @@
 //
 //  ViewController.m
-//  隐式动画
+//  显式动画
 //
-//  Created by maiyun on 15/6/24.
+//  Created by maiyun on 15/6/25.
 //  Copyright © 2015年 黄成都. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 #import "AnimationType.h"
 #import "FirstViewController.h"
 #import "SecondViewController.h"
-#import "ThirdViewController.h"
+
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property(nonatomic,strong)UITableView *tableview;
 @property(nonatomic,strong)NSMutableArray *dataSourceList;
@@ -39,7 +39,7 @@
     
     animationType = [[AnimationType alloc]initWithTitle:@"通过hitTest来测试是否点中呈现图层" detailTitle:@"通过hitTest来测试是否点中呈现图层thirdVC第七章"];
     [self.dataSourceList addObject:animationType];
-
+    
     
     
     [self.tableview reloadData];
@@ -79,20 +79,15 @@
     }else if(indexPath.row == 1){
         SecondViewController *secondVC = [[SecondViewController alloc]init];
         [self.navigationController pushViewController:secondVC animated:YES];
-    }else if(indexPath.row == 2){
-        ThirdViewController *thirdVC = [[ThirdViewController alloc]init];
-        [self.navigationController pushViewController:thirdVC animated:YES];
     }
-        
+//    else if(indexPath.row == 2){
+//        ThirdViewController *thirdVC = [[ThirdViewController alloc]init];
+//        [self.navigationController pushViewController:thirdVC animated:YES];
+//    }
+    
 }
 
 
 
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end
