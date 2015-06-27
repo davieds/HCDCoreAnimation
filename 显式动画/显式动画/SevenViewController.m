@@ -21,6 +21,18 @@
 
 
 - (IBAction)performTransition:(id)sender {
+    UIGraphicsBeginImageContextWithOptions(self.view.bounds.size, YES, 0.0);
+    [self.view.layer renderInContext:UIGraphicsGetCurrentContext()];
+    UIImage *converImage = UIGraphicsGetImageFromCurrentImageContext();
+    
+    UIView *coverView = [[UIImageView alloc]initWithImage:converImage];
+    coverView.frame = self.view.bounds;
+    [self.view addSubview:coverView];
+    
+    
+    
+    
+    
 }
 
 @end
