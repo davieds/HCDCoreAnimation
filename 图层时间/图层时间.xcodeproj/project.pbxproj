@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D44DB761B3F5F7D0080748E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D44DB741B3F5F7D0080748E /* SecondViewController.m */; };
+		4D44DB771B3F5F7D0080748E /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D44DB751B3F5F7D0080748E /* SecondViewController.xib */; };
 		4DC2DD4F1B3EDFEE0090F4DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC2DD4E1B3EDFEE0090F4DD /* main.m */; };
 		4DC2DD521B3EDFEE0090F4DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC2DD511B3EDFEE0090F4DD /* AppDelegate.m */; };
 		4DC2DD551B3EDFEE0090F4DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC2DD541B3EDFEE0090F4DD /* ViewController.m */; };
@@ -32,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D44DB731B3F5F7D0080748E /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		4D44DB741B3F5F7D0080748E /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		4D44DB751B3F5F7D0080748E /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 		4DC2DD491B3EDFEE0090F4DD /* 图层时间.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "图层时间.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC2DD4D1B3EDFEE0090F4DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DC2DD4E1B3EDFEE0090F4DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -106,6 +111,9 @@
 				4DC2DD751B3EE0450090F4DD /* FirstViewController.h */,
 				4DC2DD761B3EE0450090F4DD /* FirstViewController.m */,
 				4DC2DD771B3EE0450090F4DD /* FirstViewController.xib */,
+				4D44DB731B3F5F7D0080748E /* SecondViewController.h */,
+				4D44DB741B3F5F7D0080748E /* SecondViewController.m */,
+				4D44DB751B3F5F7D0080748E /* SecondViewController.xib */,
 			);
 			path = "图层时间";
 			sourceTree = "<group>";
@@ -219,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DC2DD581B3EDFEE0090F4DD /* Main.storyboard in Resources */,
+				4D44DB771B3F5F7D0080748E /* SecondViewController.xib in Resources */,
 				4DC2DD5D1B3EDFEE0090F4DD /* LaunchScreen.xib in Resources */,
 				4DC2DD7D1B3EE35A0090F4DD /* Door@2x.png in Resources */,
 				4DC2DD7C1B3EE35A0090F4DD /* Door.png in Resources */,
@@ -241,6 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D44DB761B3F5F7D0080748E /* SecondViewController.m in Sources */,
 				4DC2DD741B3EE0090090F4DD /* AnimationType.m in Sources */,
 				4DC2DD551B3EDFEE0090F4DD /* ViewController.m in Sources */,
 				4DC2DD781B3EE0450090F4DD /* FirstViewController.m in Sources */,
@@ -440,6 +450,7 @@
 				4DC2DD6E1B3EDFEE0090F4DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DC2DD6F1B3EDFEE0090F4DD /* Build configuration list for PBXNativeTarget "图层时间Tests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +459,7 @@
 				4DC2DD711B3EDFEE0090F4DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

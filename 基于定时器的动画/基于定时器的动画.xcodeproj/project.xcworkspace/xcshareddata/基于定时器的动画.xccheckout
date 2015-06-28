@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>1ADBB952-097C-4238-8D13-653F1D323BC8</string>
+	<string>A2794BEA-5EC9-4A9F-8E32-4C1DB29068F1</string>
 	<key>IDESourceControlProjectName</key>
-	<string>图层时间</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>BC5394D8F1190DA0E0710C1F6472CC1025079B40</key>
 		<string>https://github.com/huang303513/HCDCoreAnimation.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>图层时间/图层时间.xcodeproj</string>
+	<string>基于定时器的动画/基于定时器的动画.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>BC5394D8F1190DA0E0710C1F6472CC1025079B40</key>
