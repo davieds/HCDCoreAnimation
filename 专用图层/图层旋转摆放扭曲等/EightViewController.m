@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    NSString *str = [@"http://www.hytvu.com.cn/Public/Uploads/video/1409326789.mp4" stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     NSURL *URL = [[NSBundle mainBundle] URLForResource:@"Ship" withExtension:@"mp4"];
     
     AVPlayer *player = [AVPlayer playerWithURL:URL];
